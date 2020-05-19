@@ -1,5 +1,5 @@
 #!/bin/sh
-echo wget https://raw.githubusercontent.com/capsi-informatique/apm-agent/master/provision.sh && chmod u+x provision.sh && sh provision.sh
+# Usage wget https://raw.githubusercontent.com/capsi-informatique/apm-agent/master/provision.sh && chmod u+x provision.sh && sh provision.sh
 
 AGENT_VERSION=1.15.0
 APM_DIR=/opt/apm
