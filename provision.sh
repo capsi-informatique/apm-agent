@@ -1,7 +1,7 @@
 #!/bin/sh
 # Usage wget https://raw.githubusercontent.com/capsi-informatique/apm-agent/master/provision.sh && chmod u+x provision.sh && bash provision.sh
 
-AGENT_VERSION=1.15.0
+AGENT_VERSION=1.16.0
 APM_DIR=/opt/apm
 
 if [[ ! -e $APM_DIR ]]; then
