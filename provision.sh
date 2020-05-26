@@ -15,4 +15,4 @@ fi
 wget https://raw.githubusercontent.com/capsi-informatique/apm-agent/master/elasticapm.properties -P $APM_DIR
 
 echo Add following parameters to JVM option
-echo "-javaagent:$APM_DIR/elastic-apm-agent-$AGENT_VERSION.jar 	-Delastic.apm.environment=prod -Delastic.apm.service_name=myapp"
+echo "-javaagent:$APM_DIR/elastic-apm-agent-$AGENT_VERSION.jar -Delastic.apm.environment=prod -Delastic.apm.service_name=myapp"
